@@ -1,0 +1,42 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  font-weight: bold;
+}
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+.input {
+  margin: 10px;
+  padding: 8px;
+  width: 150px;
+}
+.add-btn {
+  margin: 10px;
+  padding: 8px;
+  width: 50px;
+  background-color: rgb(218, 226, 231);
+  border: 1px rgb(13, 13, 13) solid;
+}
